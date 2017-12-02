@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
 using System;
 
-namespace Cars.Migrations
+namespace CarsApp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20171202191851_InitialModel")]

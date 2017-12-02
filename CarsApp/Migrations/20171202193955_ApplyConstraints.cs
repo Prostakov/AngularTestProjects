@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Cars.Migrations
+namespace CarsApp.Migrations
 {
     public partial class ApplyConstraints : Migration
     {
