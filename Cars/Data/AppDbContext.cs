@@ -1,3 +1,4 @@
+using CarsApp.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace CarsApp.Data
@@ -7,5 +8,8 @@ namespace CarsApp.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
+
+        public DbSet<Manufacturer> Manufacturers { get; set; }
+        public DbSet<Model> Models { get; set; }
     }
 }
