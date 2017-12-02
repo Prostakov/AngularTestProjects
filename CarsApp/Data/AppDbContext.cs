@@ -11,5 +11,6 @@ namespace CarsApp.Data
 
         public DbSet<Manufacturer> Manufacturers { get; set; }
         public DbSet<Model> Models { get; set; }
+        public DbSet<Feature> Features { get; set; }
     }
 }

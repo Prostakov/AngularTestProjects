@@ -10,6 +10,7 @@ namespace CarsApp.Mapping
         {
             CreateMap<Manufacturer, ManufacturerResource>();
             CreateMap<Model, ModelResource>();
+            CreateMap<Feature, FeatureResource>();            
         }
     }
 }
