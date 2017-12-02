@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Cars.Data
+namespace CarsApp.Data
 {
     public class AppDbContext : DbContext
     {

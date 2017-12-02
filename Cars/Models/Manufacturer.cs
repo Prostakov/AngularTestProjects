@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Cars.Models
+namespace CarsApp.Models
 {
     public class Manufacturer
     {

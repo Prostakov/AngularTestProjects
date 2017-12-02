@@ -1,4 +1,4 @@
-namespace Cars.Models
+namespace CarsApp.Models
 {
     public class Model
     {
